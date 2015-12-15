@@ -1,0 +1,81 @@
+﻿.q-number {
+    display: block;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.q-number b {
+    font-size: 52px;
+}
+.q-number div {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(151, 151, 151);
+}
+
+.question {
+    padding-top: 75px !important;
+    padding-bottom: 75px !important;
+}
+
+.question:nth-child(2n+1) {
+    background-color: rgb(10, 10, 10) !important;
+}
+
+.question h3 {
+    font-weight: 300;
+}
+
+#btn_continue{
+    margin: 24px 0;
+}
+
+#results {
+    display: none;
+}
+
+.loading-div {
+    display: none;
+    background-color: rgb(23, 23, 23) !important;
+    background-image: url('../img/squares.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 120px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.answers a {
+    display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 22px;
+    -moz-transition: all ease-in-out 170ms;
+    -o-transition: all ease-in-out 170ms;
+    -webkit-transition: all ease-in-out 170ms;
+    transition: all ease-in-out 170ms;
+}
+
+.answers a:hover {
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0 0 15px rgb(150, 150, 150);
+}
+
+.answers a.selected {
+    background-color: rgb(0, 100, 0);
+    box-shadow: none !important;
+}
